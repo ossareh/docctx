@@ -9,6 +9,7 @@
       enable = true;
       sync.enable = true;
     };
+    venv.enable = true;
   };
 
   # https://devenv.sh/processes/
