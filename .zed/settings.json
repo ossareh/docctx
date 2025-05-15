@@ -1,0 +1,18 @@
+{
+  "context_servers": {
+    "docctx": {
+      "command": {
+        "path": "direnv",
+        "args": [
+          "exec",
+          "/Users/ossareh/dev/src/github.com/ossareh/docctx",
+          "uv",
+          "run",
+          "/Users/ossareh/dev/src/github.com/ossareh/docctx/main.py"
+        ],
+        "env": {}
+      },
+      "settings": {}
+    }
+  }
+}
