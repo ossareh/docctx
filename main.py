@@ -11,7 +11,12 @@ async def get_docs(name: str) -> str:
     Args:
         name: of the library you want docs for
     """
-    return "\n---\n".join(["foo", "bar", name])
+    with open(
+        "/Users/ossareh/dev/src/github.com/ossareh/docctx/data/python/mcp/doc.md", "r"
+    ) as f:
+        return f.read()
+
+    return "no files found"
 
 
 if __name__ == "__main__":
